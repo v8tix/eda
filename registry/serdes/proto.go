@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/v8tix/eda-1/registry"
+	"github.com/v8tix/eda/registry"
 )
 
 type ProtoSerde struct {

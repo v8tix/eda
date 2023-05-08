@@ -8,7 +8,7 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/v8tix/eda-1/am"
+	"github.com/v8tix/eda/am"
 )
 
 const maxRetries = 5

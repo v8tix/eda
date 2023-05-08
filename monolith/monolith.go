@@ -9,8 +9,8 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/grpc"
 
-	"github.com/v8tix/eda-1/config"
-	"github.com/v8tix/eda-1/waiter"
+	"github.com/v8tix/eda/config"
+	"github.com/v8tix/eda/waiter"
 )
 
 type Monolith interface {

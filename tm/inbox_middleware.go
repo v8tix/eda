@@ -6,7 +6,7 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/v8tix/eda-1/am"
+	"github.com/v8tix/eda/am"
 )
 
 type ErrDuplicateMessage string

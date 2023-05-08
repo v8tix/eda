@@ -8,8 +8,8 @@ import (
 
 	"github.com/stackus/dotenv"
 
-	"github.com/v8tix/eda-1/rpc"
-	"github.com/v8tix/eda-1/web"
+	"github.com/v8tix/eda/rpc"
+	"github.com/v8tix/eda/web"
 )
 
 type (

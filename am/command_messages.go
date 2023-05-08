@@ -8,8 +8,8 @@ import (
 	"google.golang.org/protobuf/types/known/structpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/v8tix/eda-1/ddd"
-	"github.com/v8tix/eda-1/registry"
+	"github.com/v8tix/eda/ddd"
+	"github.com/v8tix/eda/registry"
 )
 
 type (

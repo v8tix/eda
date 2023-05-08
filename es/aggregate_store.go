@@ -3,7 +3,7 @@ package es
 import (
 	"context"
 
-	"github.com/v8tix/eda-1/ddd"
+	"github.com/v8tix/eda/ddd"
 )
 
 type EventSourcedAggregate interface {

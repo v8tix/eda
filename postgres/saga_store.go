@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/v8tix/eda-1/registry"
-	"github.com/v8tix/eda-1/sec"
+	"github.com/v8tix/eda/registry"
+	"github.com/v8tix/eda/sec"
 )
 
 type SagaStore struct {

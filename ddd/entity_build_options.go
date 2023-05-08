@@ -3,7 +3,7 @@ package ddd
 import (
 	"fmt"
 
-	"github.com/v8tix/eda-1/registry"
+	"github.com/v8tix/eda/registry"
 )
 
 type IDSetter interface {

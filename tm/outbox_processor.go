@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/v8tix/eda-1/am"
+	"github.com/v8tix/eda/am"
 )
 
 const messageLimit = 50

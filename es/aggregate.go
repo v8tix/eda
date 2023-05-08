@@ -1,7 +1,7 @@
 package es
 
 import (
-	"github.com/v8tix/eda-1/ddd"
+	"github.com/v8tix/eda/ddd"
 )
 
 type (

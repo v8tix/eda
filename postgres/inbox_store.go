@@ -8,8 +8,8 @@ import (
 	"github.com/jackc/pgerrcode"
 	"github.com/stackus/errors"
 
-	"github.com/v8tix/eda-1/am"
-	"github.com/v8tix/eda-1/tm"
+	"github.com/v8tix/eda/am"
+	"github.com/v8tix/eda/tm"
 )
 
 type InboxStore struct {

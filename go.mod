@@ -1,4 +1,4 @@
-module github.com/v8tix/eda-1
+module github.com/v8tix/eda
 
 go 1.20
 

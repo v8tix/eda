@@ -1,7 +1,7 @@
 package jetstream
 
 import (
-	"github.com/v8tix/eda-1/am"
+	"github.com/v8tix/eda/am"
 )
 
 type rawMessage struct {

@@ -7,8 +7,8 @@ import (
 
 	"github.com/stackus/errors"
 
-	"github.com/v8tix/eda-1/es"
-	"github.com/v8tix/eda-1/registry"
+	"github.com/v8tix/eda/es"
+	"github.com/v8tix/eda/registry"
 )
 
 type SnapshotStore struct {

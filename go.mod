@@ -8,7 +8,7 @@ require (
 	github.com/jackc/pgconn v1.12.1
 	github.com/jackc/pgerrcode v0.0.0-20220416144525-469b46aa5efa
 	github.com/jackc/pgtype v1.11.0
-	github.com/nats-io/nats.go v1.24.0
+	github.com/nats-io/nats.go v1.26.0
 	github.com/rs/zerolog v1.26.1
 	github.com/stackus/errors v0.1.5
 	golang.org/x/sync v0.1.0
@@ -24,6 +24,7 @@ require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgproto3/v2 v2.3.2 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20221227161230-091c0ba34f0a // indirect
+	github.com/klauspost/compress v1.16.5 // indirect
 	github.com/nats-io/nats-server/v2 v2.9.16 // indirect
 	github.com/nats-io/nkeys v0.4.4 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect

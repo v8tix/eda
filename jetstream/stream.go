@@ -8,6 +8,7 @@ import (
 	"github.com/rs/zerolog"
 	"google.golang.org/protobuf/proto"
 
+	"fmt"
 	"github.com/v8tix/eda/am"
 )
 
@@ -93,7 +94,7 @@ func (s *Stream) Subscribe(topicName string, handler am.RawMessageHandler, optio
 	cfg := &nats.ConsumerConfig{
 		MaxDeliver:     subCfg.MaxRedeliver(),
 		DeliverSubject: topicName,
-		FilterSubject:  topicName,
+		FilterSubject:  fmt.Sprintf("events.%s", topicName),
 	}
 	if groupName := subCfg.GroupName(); groupName != "" {
 		cfg.DeliverSubject = groupName
